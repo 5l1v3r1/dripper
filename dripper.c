@@ -30,7 +30,7 @@
  
 in_addr_t *dns_servers;
 int   NUM_DNS    = 0;
-char *RESOLVCONF = "/etc/resolv.conf";
+char *RESOLVCONF = "/usr/share/dripper/resolv.conf";
 char *SUBDOMAINS = "/usr/share/dripper/subs.txt";
  
 // structs for the DNS protocol
